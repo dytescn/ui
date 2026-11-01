@@ -1,0 +1,27 @@
+@import "tailwindcss" source(none);
+
+@source "../";
+@source "../../index.html";
+
+/*
+ * 聊天模块主题令牌。
+ * 颜色值与 legacy.css 中 #chat-container 的变量保持一致；
+ * 变量名统一用 --color-*，供 Tailwind 的 bg-* / text-* / border-* 等工具类生成。
+ */
+@theme {
+  --color-background: #fff;
+  --color-foreground: #0a0a0a;
+  --color-primary: #171717;
+  --color-primary-foreground: #fafafa;
+  --color-muted: #f5f5f5;
+  --color-muted-foreground: #737373;
+  --color-accent: #f5f5f5;
+  --color-accent-foreground: #171717;
+  --color-destructive: #e40014;
+  --color-border: #e5e5e5;
+  --color-ring: #a1a1a1;
+
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}

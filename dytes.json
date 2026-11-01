@@ -1,0 +1,28 @@
+{
+  "name": "chat_ui",
+  "uuid": "0548aa37-b18f-41ce-a50b-3eceb05cf059",
+  "version": "1.0.12",
+  "description": "chat for piksel",
+  "keywords": [
+    "piksel",
+    "ai",
+    "chat"
+  ],
+  "author": "funxdata",
+  "type": "web",
+  "license": "MIT",
+  "dependencies-web": {},
+  "exports": {
+    "./assets/css/chat.css": "chat.css",
+    "./assets/css/marked.css": "marked.css",
+    "./assets/project_app_0_0_1.js": "chat.js",
+    "./src/setup.ts": "setup.ts"
+  },
+  "init": [
+    "./setup.ts"
+  ],
+  "dependencies-sys": {
+    "chatllm": "1.0.9",
+    "info_lib": "0.1.0"
+  }
+}
