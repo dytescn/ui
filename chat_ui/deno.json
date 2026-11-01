@@ -1,6 +1,6 @@
 {
     "name": "chat_ui",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "tasks": {
         "build:css": "node scripts/build_css.mjs",
         "watch:css": "node scripts/build_css.mjs --watch",
