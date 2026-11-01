@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "uuid": "1e4aab7c-537d-49cc-b88c-d410d494089b",
+  "version": "1.0.5",
+  "description": "project for piksel",
+  "keywords": [
+    "project"
+  ],
+  "author": "funxdata",
+  "type": "web",
+  "dependencies-sys": {
+    "workspace_lib": "1.0.1",
+    "info_lib": "0.1.0"
+  },
+  "dependencies-web": {},
+  "exports": {
+    "./assets/project_project_0_0_1.js": "project.js",
+    "./assets/project_workspace_0_0_1.js": "workspace.js",
+    "./assets/project_setting_0_0_1.js": "setting.js",
+    "./src/setup.ts": "setup.ts"
+  },
+  "init": [
+    "./setup.ts"
+  ]
+}
