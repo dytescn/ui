@@ -1,6 +1,6 @@
 # chat_ui
 
-Piksel 的 AI 对话界面，`web` 包，包名 `chat_ui`，当前版本 **1.0.12**。
+Piksel 的 AI 对话界面，`web` 包，包名 `chat_ui`，当前版本 **1.0.13**。
 
 ## 作用
 

@@ -1,6 +1,6 @@
 # setting_ui
 
-Piksel 的系统与设计设置界面，`web` 包，包名 `setting`，当前版本 **1.0.9**。
+Piksel 的系统与设计设置界面，`web` 包，包名 `setting`，当前版本 **1.0.10**。
 
 ## 作用
 

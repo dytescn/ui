@@ -7,12 +7,12 @@ Piksel 的 Web 界面包集合。6 个子项目统一在本仓库维护，各自
 
 | 目录 | 包名 | 版本 | 作用 | 主要依赖 |
 | --- | --- | --- | --- | --- |
-| [chat_ui](chat_ui/README.md) | `chat_ui` | 1.0.12 | AI 对话界面：会话、消息、附件、模型调用 | `chatllm`、`info_lib` |
-| [init_ui](init_ui/README.md) | `init` | 1.0.20 | 首次启动与初始化：路由、侧边栏、设计软件选择 | `info_lib`、`pages`、`stylesheet` |
-| [material_ui](material_ui/README.md) | `material` | 1.0.4 | 素材库：素材文件、类型、版本、标签 | `material_lib`、`info_lib` |
-| [plugins_ui](plugins_ui/README.md) | `plugins` | 1.0.9 | 插件管理：列表、分类、安装与更新 | `plugin_lib` |
-| [setting_ui](setting_ui/README.md) | `setting` | 1.0.9 | 系统与设计设置 | `info_lib` |
-| [workspace_ui](workspace_ui/README.md) | `workspace` | 1.0.5 | 工作区 / 项目：项目、版本、设计文件 | `workspace_lib`、`info_lib` |
+| [chat_ui](chat_ui/README.md) | `chat_ui` | 1.0.13 | AI 对话界面：会话、消息、附件、模型调用 | `chatllm`、`info_lib` |
+| [init_ui](init_ui/README.md) | `init` | 1.0.21 | 首次启动与初始化：路由、侧边栏、设计软件选择 | `info_lib`、`pages`、`stylesheet` |
+| [material_ui](material_ui/README.md) | `material` | 1.0.5 | 素材库：素材文件、类型、版本、标签 | `material_lib`、`info_lib` |
+| [plugins_ui](plugins_ui/README.md) | `plugins` | 1.0.10 | 插件管理：列表、分类、安装与更新 | `plugin_lib` |
+| [setting_ui](setting_ui/README.md) | `setting` | 1.0.10 | 系统与设计设置 | `info_lib` |
+| [workspace_ui](workspace_ui/README.md) | `workspace` | 1.0.6 | 工作区 / 项目：项目、版本、设计文件 | `workspace_lib`、`info_lib` |
 
 版本以各目录下的 `dytes.json` 为准。
 

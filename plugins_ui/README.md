@@ -1,6 +1,6 @@
 # plugins_ui
 
-Piksel 的插件管理界面，`web` 包，包名 `plugins`，当前版本 **1.0.9**。
+Piksel 的插件管理界面，`web` 包，包名 `plugins`，当前版本 **1.0.10**。
 
 ## 作用
 

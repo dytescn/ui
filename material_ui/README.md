@@ -1,6 +1,6 @@
 # material_ui
 
-Piksel 的素材库界面，`web` 包，包名 `material`，当前版本 **1.0.4**。
+Piksel 的素材库界面，`web` 包，包名 `material`，当前版本 **1.0.5**。
 
 ## 作用
 
