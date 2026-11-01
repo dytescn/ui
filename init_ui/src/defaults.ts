@@ -8,6 +8,7 @@ export const DEFAULT_SCRIPTS = [
 export const DEFAULT_STYLES = [
   "/stylesheet/funxui.css",
   "/stylesheet/funxicon.css",
+  "/stylesheet/chat.css",
 ] as const;
 
 function load_script(src: string, callback?: () => void): Promise<void> {

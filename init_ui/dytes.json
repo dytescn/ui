@@ -1,7 +1,7 @@
 {
   "name": "init",
   "uuid": "85a9acdd-8e73-460f-ad19-16160df22116",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "init for piksel",
   "keywords": [
     "init",
@@ -18,8 +18,8 @@
     "stylesheet": "1.0.1"
   },
   "exports": {
-    "./assets/init_app_1_0_21.js": "init.js",
-    "./src/setup.ts": "setup.ts"
+    "./src/setup.ts": "setup.ts",
+    "./assets/init_app_1_0_22.js": "init.js"
   },
   "init": [
     "./setup.ts"
