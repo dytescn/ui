@@ -4,8 +4,6 @@
     "jsr:@deno/cache-dir@0.13.2": "0.13.2",
     "jsr:@deno/emit@0.46": "0.46.0",
     "jsr:@deno/graph@~0.73.1": "0.73.1",
-    "jsr:@funxdata/pages@^0.0.24": "0.0.24",
-    "jsr:@funxdata/template@~0.1.6": "0.1.9",
     "jsr:@funxdata/toolkit@*": "0.1.36",
     "jsr:@std/assert@0.223": "0.223.0",
     "jsr:@std/bytes@0.223": "0.223.0",
@@ -46,18 +44,6 @@
     },
     "@deno/graph@0.73.1": {
       "integrity": "cd69639d2709d479037d5ce191a422eabe8d71bb68b0098344f6b07411c84d41"
-    },
-    "@funxdata/pages@0.0.24": {
-      "integrity": "ebee6652a94f36e65537406302db92b63d0cdfd7924edf115915e15947f85a8e",
-      "dependencies": [
-        "jsr:@funxdata/template"
-      ]
-    },
-    "@funxdata/template@0.1.9": {
-      "integrity": "20543f5df9ab573d9b1e6ff7a63c646cb6b7cc90f5ce7da79df4313c8f5d25cf",
-      "dependencies": [
-        "jsr:@funxdata/pages"
-      ]
     },
     "@funxdata/toolkit@0.1.36": {
       "integrity": "c45b12c2a6619fb3fa6539fc6a406bc46217d1807b2c8e402d92031f878ae3d7",
@@ -1042,8 +1028,8 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@funxdata/funxdata@~0.1.36",
-      "jsr:@funxdata/pages@^0.0.24"
+      "jsr:@funxdata/pages@^0.0.38",
+      "jsr:@funxdata/toolkit@~0.2.22"
     ]
   }
 }

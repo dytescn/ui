@@ -1,7 +1,7 @@
 {
   "name": "material",
   "uuid": "21b518ef-6db8-4bbd-b05e-70e6f2f26942",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "material for piksel",
   "keywords": [
     "material"
@@ -14,10 +14,10 @@
   },
   "dependencies-web": {},
   "exports": {
-    "./assets/project_app_0_0_1.js": "material.js",
+    "./assets/material_app_1_0_5.js": "material.js",
     "./src/setup.ts": "setup.ts"
   },
   "init": [
-    "./setup.ts"
+    "./src/setup.ts"
   ]
 }

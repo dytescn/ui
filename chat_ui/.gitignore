@@ -1,6 +1,8 @@
 node_modules/*
 assets/project*
+assets/chat_ui_*
 publish*
 assets/project*
+assets/chat_ui_*
 deno.lock
 node_modules*
