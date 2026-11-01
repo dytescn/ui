@@ -1,0 +1,27 @@
+{
+  "name": "init",
+  "uuid": "85a9acdd-8e73-460f-ad19-16160df22116",
+  "version": "1.0.20",
+  "description": "init for piksel",
+  "keywords": [
+    "init",
+    "chat"
+  ],
+  "author": "funxdata",
+  "type": "web",
+  "license": "MIT",
+  "dependencies-sys": {
+    "info_lib": "0.1.0"
+  },
+  "dependencies-web": {
+    "pages": "1.0.0",
+    "stylesheet": "1.0.1"
+  },
+  "exports": {
+    "./assets/init_app_0_0_1.js": "init.js",
+    "./src/setup.ts": "setup.ts"
+  },
+  "init": [
+    "./setup.ts"
+  ]
+}
