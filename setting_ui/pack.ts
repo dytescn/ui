@@ -1,6 +1,6 @@
 // 统一打包入口：deno task pack
-// 依次调用 @funxdata/toolkit/pack，生成 info / design / base.css 产物
-const entries = ["src/info.ts", "src/styles/base.css"];
+// 依次调用 @funxdata/toolkit/pack，生成 info 页面产物；样式统一由 stylesheet 提供
+const entries = ["src/info.ts"];
 
 for (const entry of entries) {
   console.log(`\n==> pack ${entry}`);
