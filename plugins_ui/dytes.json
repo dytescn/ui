@@ -1,0 +1,15 @@
+{
+  "name": "plugins",
+  "uuid": "fb548763-89d4-407f-99a2-285929b87abb",
+  "version": "1.0.9",
+  "description": "plugins for piksel",
+  "keywords": ["plugins"],
+  "author": "funxdata",
+  "type": "web",
+  "dependencies-web": {},
+  "exports": {
+    "./assets/project_app_0_0_1.js": "plugins.js",
+    "./src/setup.ts": "setup.ts"
+  },
+  "init":["./setup.ts"]
+}

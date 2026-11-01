@@ -1,0 +1,28 @@
+ @import "tailwindcss";
+ .vg-asides-logo {
+  display: block;
+  height: 0;
+  margin: 0.3rem 1rem 0.5rem 0.5rem;
+  position: relative;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+ .vg-menus-li .menus-bars button {
+  font-size: 1.25rem;
+}
+
+.vg-avatar-bg.avatar-size-lg {
+  height: 1.75rem;
+  min-width: 1.75rem;
+  width: 1.75rem;
+}
+@layer utilities {
+  .border {
+    /* 强制重置为你想要的默认值，或者直接初始化 */
+    border-width: 0px !important;
+    border-top-width: 0px !important;
+    border-style: none !important;
+  }
+}
+
