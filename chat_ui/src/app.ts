@@ -4,20 +4,8 @@ import { header_init } from "./rout/header.ts";
 import { chat_msg_init } from "./rout/chat_msg.ts";
 import { chat_form_init } from "./rout/chat_form.ts";
 
-// 运行 chat.js 时自动加载样式：
-// 安装后 chat_ui 包位于 web/chat_ui/，样式统一由 chat.css 提供（含 Markdown 正文样式）。
-const css_base = (() => {
-  const src = (document.currentScript as HTMLScriptElement | null)?.src;
-  return src ? new URL("./", src).pathname : "/chat_ui/";
-})();
-
-if (!document.querySelector('link[data-chat-css="chat.css"]')) {
-  const link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.href = css_base + "chat.css";
-  link.dataset.chatCss = "chat.css";
-  document.head.appendChild(link);
-}
+// 样式由 stylesheet 包统一提供（/stylesheet/funxui.css、/stylesheet/chat.css），
+// 这里只启动对话相关页面模块。
 
 const uid = new URLSearchParams(globalThis.location.search).get('uid') || '';
 

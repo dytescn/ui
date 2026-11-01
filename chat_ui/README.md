@@ -1,6 +1,6 @@
 # chat_ui
 
-Piksel 的 AI 对话界面，`web` 包，包名 `chat_ui`，当前版本 **1.0.14**。
+Piksel 的 AI 对话界面，`web` 包，包名 `chat_ui`，当前版本 **1.0.15**。
 
 ## 作用
 
@@ -14,18 +14,16 @@ Piksel 的 AI 对话界面，`web` 包，包名 `chat_ui`，当前版本 **1.0.1
 
 | 文件 | 说明 |
 | --- | --- |
-| `chat.js` | 页面脚本（`assets/chat_ui_app_1_0_14.js`） |
-| `chat.css` | 对话样式（含 Markdown 正文样式，由 `src/styles/` 统一构建） |
+| `chat.js` | 页面脚本（`assets/chat_ui_app_1_0_15.js`） |
 | `setup.ts` | 安装 / 更新时执行的路由初始化脚本 |
 
-依赖：`chatllm 1.0.9`、`info_lib 0.1.0`。
+依赖：`chatllm 1.0.9`、`info_lib 0.1.0`。样式由 `stylesheet` 包提供（`/stylesheet/chat.css`）。
 
 ## 开发
 
 ```bash
 deno task view     # 本地预览
 deno task pack     # 打包
-deno task build:css # 重新构建 Tailwind 样式
 ```
 
 ## 文档
