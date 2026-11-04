@@ -40,7 +40,7 @@ async function upsertRouter(route: Record<string, unknown>): Promise<void> {
   await infoCall("router_update", { id, ...fields });
 }
 
-// 500 设置父菜单；501 设置 / 信息页；502 不再写入。
+// 500 设置父菜单；501 设置 / 信息页；502 为 /setting 别名（chatllm 未配置时跳转目标）。
 await upsertRouter({
   id: 500,
   title: "设置",
@@ -61,6 +61,17 @@ await upsertRouter({
   parent_id: 500,
   level: 2,
 });
+await upsertRouter({
+  id: 502,
+  title: "设置",
+  icon: "",
+  hide: 1,
+  path: "/setting",
+  url: "/setting/info.js",
+  show: 0,
+  parent_id: 500,
+  level: 2,
+});
 console.log("设置路由初始化完成");
 
 const baseNote = {
@@ -74,10 +85,11 @@ const baseSettings: Array<Record<string, string>> = [
   {
     key: "ai_supplier",
     title: "AI 对话供应商",
-    value: "deepseek",
+    // 首次安装保持未选择，chatllm 会提示前往 /setting 选择供应商。
+    value: "",
     value_type: "enum",
     category: "base",
-    description: "可选：siliconflow / deepseek / openai",
+    description: "可选：deepseek / siliconflow_t2t",
   },
   {
     key: "language",
