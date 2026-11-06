@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "requests": [
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 100,
+        "title": "项目",
+        "icon": "ic-project",
+        "hide": 0,
+        "path": "/project",
+        "parent_id": 0,
+        "level": 1
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 101,
+        "title": "project",
+        "icon": "",
+        "hide": 0,
+        "path": "/project",
+        "url": "/workspace/project.js",
+        "show": 1,
+        "parent_id": 100,
+        "level": 2
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 200,
+        "title": "工作区",
+        "icon": "ic-project",
+        "hide": 1,
+        "path": "/workspace",
+        "parent_id": 0,
+        "level": 1
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 201,
+        "title": "工作区文件",
+        "icon": "",
+        "hide": 1,
+        "path": "/workspace",
+        "url": "/workspace/workspace.js",
+        "show": 1,
+        "parent_id": 200,
+        "level": 2
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 202,
+        "title": "工作区设置",
+        "icon": "",
+        "hide": 1,
+        "path": "/workspace/setting",
+        "url": "/workspace/setting.js",
+        "show": 1,
+        "parent_id": 200,
+        "level": 2
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 100,
+        "title": "项目",
+        "icon": "ic-project",
+        "hide": 0,
+        "path": "/project",
+        "parent_id": 0,
+        "level": 1
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 101,
+        "title": "project",
+        "icon": "",
+        "hide": 0,
+        "path": "/project",
+        "url": "/workspace/project.js",
+        "show": 1,
+        "parent_id": 100,
+        "level": 2
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 200,
+        "title": "工作区",
+        "icon": "ic-project",
+        "hide": 1,
+        "path": "/workspace",
+        "parent_id": 0,
+        "level": 1
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 201,
+        "title": "工作区文件",
+        "icon": "",
+        "hide": 1,
+        "path": "/workspace",
+        "url": "/workspace/workspace.js",
+        "show": 1,
+        "parent_id": 200,
+        "level": 2
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 202,
+        "title": "工作区设置",
+        "icon": "",
+        "hide": 1,
+        "path": "/workspace/setting",
+        "url": "/workspace/setting.js",
+        "show": 1,
+        "parent_id": 200,
+        "level": 2
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/workspace_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "setup"
+      },
+      "body": {}
+    }
+  ]
+}

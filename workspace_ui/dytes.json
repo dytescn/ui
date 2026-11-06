@@ -17,9 +17,9 @@
     "./assets/workspace_project_1_0_6.js": "project.js",
     "./assets/workspace_workspace_1_0_6.js": "workspace.js",
     "./assets/workspace_setting_1_0_6.js": "setting.js",
-    "./src/setup.ts": "setup.ts"
+    "./src/setup.json": "setup.json"
   },
   "init": [
-    "./src/setup.ts"
+    "./setup.json"
   ]
 }

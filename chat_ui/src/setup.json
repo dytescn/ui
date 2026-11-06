@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "requests": [
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 1,
+        "title": "AI",
+        "icon": "ic-message",
+        "hide": 0,
+        "path": "/chat",
+        "parent_id": 0,
+        "level": 1
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 2,
+        "title": "instro",
+        "icon": "",
+        "hide": 0,
+        "path": "/chat",
+        "url": "/chat_ui/chat.js",
+        "show": 1,
+        "parent_id": 1,
+        "level": 2
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 1,
+        "title": "AI",
+        "icon": "ic-message",
+        "hide": 0,
+        "path": "/chat",
+        "parent_id": 0,
+        "level": 1
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 2,
+        "title": "instro",
+        "icon": "",
+        "hide": 0,
+        "path": "/chat",
+        "url": "/chat_ui/chat.js",
+        "show": 1,
+        "parent_id": 1,
+        "level": 2
+      }
+    }
+  ]
+}

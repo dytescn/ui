@@ -15,9 +15,9 @@
   "dependencies-web": {},
   "exports": {
     "./assets/material_app_1_0_5.js": "material.js",
-    "./src/setup.ts": "setup.ts"
+    "./src/setup.json": "setup.json"
   },
   "init": [
-    "./src/setup.ts"
+    "./setup.json"
   ]
 }

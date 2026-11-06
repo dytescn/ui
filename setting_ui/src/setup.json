@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "requests": [
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 500,
+        "title": "设置",
+        "icon": "ic-sample",
+        "hide": 1,
+        "path": "/setting",
+        "parent_id": 0,
+        "level": 1
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 501,
+        "title": "设置",
+        "icon": "",
+        "hide": 1,
+        "path": "/setting/info",
+        "url": "/setting/info.js",
+        "show": 1,
+        "parent_id": 500,
+        "level": 2
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_post"
+      },
+      "body": {
+        "id": 502,
+        "title": "设置",
+        "icon": "",
+        "hide": 1,
+        "path": "/setting",
+        "url": "/setting/info.js",
+        "show": 0,
+        "parent_id": 500,
+        "level": 2
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_post"
+      },
+      "body": {
+        "key": "ai_supplier",
+        "title": "AI 对话供应商",
+        "value": "",
+        "value_type": "enum",
+        "category": "base",
+        "description": "可选：deepseek / siliconflow_t2t",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_post"
+      },
+      "body": {
+        "key": "language",
+        "title": "界面语言",
+        "value": "zh-CN",
+        "value_type": "enum",
+        "category": "base",
+        "description": "zh-CN / en",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_post"
+      },
+      "body": {
+        "key": "auto_update",
+        "title": "自动更新",
+        "value": "true",
+        "value_type": "boolean",
+        "category": "base",
+        "description": "启动时检查并安装更新",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_post"
+      },
+      "body": {
+        "key": "log_level",
+        "title": "日志级别",
+        "value": "info",
+        "value_type": "enum",
+        "category": "base",
+        "description": "error / warn / info / debug",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_post"
+      },
+      "body": {
+        "key": "timezone",
+        "title": "时区",
+        "value": "Asia/Shanghai",
+        "value_type": "string",
+        "category": "base",
+        "description": "IANA 时区，例如 Asia/Shanghai",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 500,
+        "title": "设置",
+        "icon": "ic-sample",
+        "hide": 1,
+        "path": "/setting",
+        "parent_id": 0,
+        "level": 1
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 501,
+        "title": "设置",
+        "icon": "",
+        "hide": 1,
+        "path": "/setting/info",
+        "url": "/setting/info.js",
+        "show": 1,
+        "parent_id": 500,
+        "level": 2
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "router_update"
+      },
+      "body": {
+        "id": 502,
+        "title": "设置",
+        "icon": "",
+        "hide": 1,
+        "path": "/setting",
+        "url": "/setting/info.js",
+        "show": 0,
+        "parent_id": 500,
+        "level": 2
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_update"
+      },
+      "body": {
+        "key": "ai_supplier",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_update"
+      },
+      "body": {
+        "key": "language",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_update"
+      },
+      "body": {
+        "key": "auto_update",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_update"
+      },
+      "body": {
+        "key": "log_level",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_update"
+      },
+      "body": {
+        "key": "timezone",
+        "note": {
+          "key": "base",
+          "language": "default",
+          "title": "基础",
+          "description": "系统基础设置"
+        }
+      }
+    }
+  ]
+}

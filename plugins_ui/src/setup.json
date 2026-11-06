@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "requests": [
+    {
+      "url": "http://127.0.0.1:44944/database",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "db_insert"
+      },
+      "body": {
+        "path": "router",
+        "sql": "DELETE FROM routers WHERE id IN (400, 401) OR parent_id IN (400, 401)"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/database",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "db_insert"
+      },
+      "body": {
+        "path": "router",
+        "sql": "\n            INSERT INTO routers (id, title, icon, hide, path, parent_id, level)\n            VALUES (400, '插件', 'ic-store-admin', 0, '/plugins', 0, 1)\n        "
+      }
+    },
+    {
+      "url": "http://127.0.0.1:44944/database",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "db_insert"
+      },
+      "body": {
+        "path": "router",
+        "sql": "\n            INSERT INTO routers (id, title, icon, hide, path, url, show, parent_id, level)\n            VALUES (401, '插件列表', '', 0, '/plugins', '/plugins/plugins.js', 1, 400, 2)\n        "
+      }
+    }
+  ]
+}

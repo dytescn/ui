@@ -14,10 +14,10 @@
   "dependencies-web": {},
   "exports": {
     "./assets/chat_ui_app_1_0_15.js": "chat.js",
-    "./src/setup.ts": "setup.ts"
+    "./src/setup.json": "setup.json"
   },
   "init": [
-    "./src/setup.ts"
+    "./setup.json"
   ],
   "dependencies-sys": {
     "chatllm": "1.0.9",

@@ -11,10 +11,10 @@
   "dependencies-web": {},
   "exports": {
     "./assets/setting_info_1_0_11.js": "info.js",
-    "./src/setup.ts": "setup.ts"
+    "./src/setup.json": "setup.json"
   },
   "init": [
-    "./src/setup.ts"
+    "./setup.json"
   ],
   "dependencies-sys": {
     "info_lib": "0.1.1"

@@ -3,13 +3,17 @@
   "uuid": "fb548763-89d4-407f-99a2-285929b87abb",
   "version": "1.0.10",
   "description": "plugins for piksel",
-  "keywords": ["plugins"],
+  "keywords": [
+    "plugins"
+  ],
   "author": "funxdata",
   "type": "web",
   "dependencies-web": {},
   "exports": {
     "./assets/plugins_app_1_0_10.js": "plugins.js",
-    "./src/setup.ts": "setup.ts"
+    "./src/setup.json": "setup.json"
   },
-  "init":["./src/setup.ts"]
+  "init": [
+    "./setup.json"
+  ]
 }
