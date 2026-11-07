@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "requests": [
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_post"
+      },
+      "body": {
+        "key": "system_info",
+        "title": "系统基础信息",
+        "value": "{\"platform\":\"unknown\",\"language\":\"unknown\",\"timezone\":\"unknown\"}",
+        "value_type": "json",
+        "category": "general",
+        "description": "系统基础信息（平台、语言、时区）",
+        "note": {
+          "key": "general",
+          "language": "default",
+          "title": "通用",
+          "description": "通用设置与内部缓存"
+        }
+      },
+      "allow_error": true
+    },
+    {
+      "url": "http://127.0.0.1:44944/info_lib",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/libary",
+        "FFI-Symbol": "info_update"
+      },
+      "body": {
+        "key": "system_info",
+        "note": {
+          "key": "general",
+          "language": "default",
+          "title": "通用",
+          "description": "通用设置与内部缓存"
+        }
+      }
+    }
+  ]
+}

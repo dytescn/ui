@@ -15,7 +15,7 @@ Piksel 的插件管理界面，`web` 包，包名 `plugins`，当前版本 **1.0
 | 文件 | 说明 |
 | --- | --- |
 | `plugins.js` | 页面脚本（`assets/project_app_0_0_1.js`） |
-| `setup.ts` | 安装 / 更新时执行的路由初始化脚本 |
+| `setup.json` | 安装 / 更新时执行的路由初始化请求 |
 
 ## 开发
 

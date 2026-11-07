@@ -1,6 +1,6 @@
 # init_ui
 
-Piksel 的初始化与入口界面，`web` 包，包名 `init`，当前版本 **1.0.21**。
+Piksel 的初始化与入口界面，`web` 包，包名 `init`，当前版本 **1.0.23**。
 
 ## 作用
 
@@ -16,7 +16,7 @@ Piksel 的初始化与入口界面，`web` 包，包名 `init`，当前版本 **
 | 文件 | 说明 |
 | --- | --- |
 | `init.js` | 入口脚本（`assets/init_app_0_0_1.js`） |
-| `setup.ts` | 安装 / 更新时执行的路由初始化脚本 |
+| `setup.json` | 安装 / 更新时执行的初始化请求 |
 
 依赖：`info_lib 0.1.0`、`pages 1.0.0`、`stylesheet 1.0.1`。
 

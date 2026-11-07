@@ -38,7 +38,7 @@ ui/
 ├── dytes.json        # 包清单（名称、版本、exports、init）
 ├── src/
 │   ├── app.ts        # 应用入口
-│   ├── setup.ts      # 安装 / 更新时执行的 init 脚本
+│   ├── setup.json    # 安装 / 更新时执行的 init 请求
 │   ├── apis/         # 能力调用封装（含 *.md 接口说明）
 │   ├── rout/ route/  # 路由与事件
 │   └── view/         # 模板与视图
@@ -59,7 +59,7 @@ deno task screen   # 在 screen 宿主中运行
 ```
 
 构建后，`assets/` 中的文件由 `dytes.json` 的 `exports` 映射为分发文件名，
-`src/setup.ts` 在安装 / 更新时执行。
+`src/setup.json` 由 dytes 在安装 / 更新时经 cyctron 执行。
 
 > 各项目的 `deno.json` 存在映射与入口差异，待处理项分别记录在各自的
 > `todo/ui-upgrade.md`；打包前先按待办确认 `@funxdata/toolkit` 映射与 `pack` 入口。

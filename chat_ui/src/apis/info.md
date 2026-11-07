@@ -42,4 +42,4 @@ chatllm 对外接口：
 - 会话创建、user / assistant 消息入库、云端调用与 Markdown → HTML 转译全部由 chatllm 完成；chat_ui 不再写数据库。
 - `get_dialogue` 返回 `{ dialogue, messages }`，消息列表带 `content_html`，前端直接渲染。
 - `post_message` 的响应只包含 `uuid` / `created` / `prompt` / `max_tokens`，回复内容需通过 `get_dialogue` 读取。
-- `setup.ts` 属于安装期 init 脚本（写路由、建表），仍使用 database 能力库；它不参与页面运行时。
+- `setup.json` 属于安装期 init 请求（写路由），由 dytes 经 cyctron 执行；它不参与页面运行时。

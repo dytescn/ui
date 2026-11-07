@@ -17,7 +17,7 @@ Piksel 的工作区与项目界面，`web` 包，包名 `workspace`，当前版�
 | `project.js` | 项目页（`assets/workspace_project_1_0_6.js`） |
 | `workspace.js` | 工作区页（`assets/workspace_workspace_1_0_6.js`） |
 | `setting.js` | 项目设置页（`assets/workspace_setting_1_0_6.js`） |
-| `setup.ts` | 安装 / 更新时执行的路由与建表脚本 |
+| `setup.json` | 安装 / 更新时执行的路由请求 |
 
 依赖：`workspace_lib 1.0.1`、`info_lib 0.1.0`。
 

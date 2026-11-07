@@ -16,7 +16,7 @@ Piksel 的系统与设计设置界面，`web` 包，包名 `setting`，当前版
 | --- | --- |
 | `info.js` | 基础设置页（`assets/project_info_1_0_9.js`） |
 | `base.css` | 页面样式（`assets/project_base_1_0_9.css`） |
-| `setup.ts` | 安装 / 更新时执行的路由与默认值初始化 |
+| `setup.json` | 安装 / 更新时执行的路由与默认值初始化请求 |
 
 依赖：`info_lib 0.1.1`。
 
