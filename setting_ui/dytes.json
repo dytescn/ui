@@ -1,7 +1,7 @@
 {
   "name": "setting",
   "uuid": "3aefab76-d42f-42ab-a5a8-1ee1546b6c31",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "setting for piksel",
   "keywords": [
     "setting"
@@ -10,13 +10,13 @@
   "type": "web",
   "dependencies-web": {},
   "exports": {
-    "./assets/setting_info_1_0_11.js": "info.js",
+    "./assets/setting_info_1_0_12.js": "info.js",
     "./src/setup.json": "setup.json"
   },
   "init": [
     "./setup.json"
   ],
   "dependencies-sys": {
-    "info_lib": "0.1.1"
+    "info_lib": "0.1.3"
   }
 }

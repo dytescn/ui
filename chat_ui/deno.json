@@ -1,6 +1,6 @@
 {
     "name": "chat_ui",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "tasks": {
         "view": "deno run --allow-net --allow-read  --allow-run --allow-env --allow-ffi --allow-sys jsr:@funxdata/toolkit/view",
         "pack": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env --allow-ffi --allow-sys jsr:@funxdata/toolkit/pack src/app.ts"
