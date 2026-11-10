@@ -1,7 +1,7 @@
 {
   "name": "chat_ui",
   "uuid": "0548aa37-b18f-41ce-a50b-3eceb05cf059",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "chat for piksel",
   "keywords": [
     "piksel",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies-web": {},
   "exports": {
-    "./assets/chat_ui_app_1_0_16.js": "chat.js",
+    "./assets/chat_ui_app_1_0_17.js": "chat.js",
     "./src/setup.json": "setup.json"
   },
   "init": [
